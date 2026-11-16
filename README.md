@@ -14,6 +14,39 @@ The lab consists of:
 
 The primary objective was to establish secure communication between the systems, strengthen SSH authentication, and access a remote PostgreSQL database through an encrypted SSH tunnel without exposing the database port directly to the network.
 
+
+## Project Screenshots
+
+### 1. SSH Key-Based Authentication
+Successful remote access to Ubuntu using Ed25519 public-key authentication.
+
+![SSH Key Authentication](screenshots/01-ssh-key-authentication.png)
+
+### 2. SSH Password Authentication Disabled
+Verification that password-based SSH authentication is rejected.
+
+![SSH Password Disabled](screenshots/02-ssh-password-disabled.png)
+
+### 3. SSH Tunnelling
+Establishing an encrypted SSH tunnel from Kali Linux to Ubuntu.
+
+![SSH Tunnel](screenshots/03-ssh-tunnel.png)
+
+### 4. Remote PostgreSQL Connection
+Verifying the authenticated database connection through the SSH tunnel.
+
+![PostgreSQL Connection](screenshots/04-postgresql-connection.png)
+
+### 5. PostgreSQL Queries
+Retrieving employee records and filtering results using SQL.
+
+![PostgreSQL Queries](screenshots/05-postgresql-queries.png)
+
+### 6. Network Architecture
+Visual representation of the Kali Linux, SSH tunnel, Ubuntu, and PostgreSQL architecture.
+
+![Network Architecture](screenshots/06-network-architecture.png)
+
 ## Technologies & Tools
 
 | Category | Technologies |
