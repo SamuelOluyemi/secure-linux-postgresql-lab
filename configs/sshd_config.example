@@ -1,0 +1,11 @@
+# Example SSH server security configuration
+# Relevant settings used in this lab.
+
+# Enable public-key authentication
+PubkeyAuthentication yes
+
+# Disable password-based authentication
+PasswordAuthentication no
+
+# Disable keyboard-interactive authentication
+KbdInteractiveAuthentication no
